@@ -1,0 +1,73 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "src/components/*"
+      ],
+      "@/ui/*": [
+        "src/components/ui/*"
+      ],
+      "@/layout/*": [
+        "src/components/layout/*"
+      ],
+      "@/screens/*": [
+        "src/components/screens/*"
+      ],
+      "@/hooks/*": [
+        "src/hooks/*"
+      ],
+      "@/shared/*": [
+        "src/shared/*"
+      ],
+      "@/helpers/*": [
+        "src/helpers/*"
+      ],
+      "@/providers/*": [
+        "src/providers/*"
+      ],
+      "@/data/*": [
+        "src/data/*"
+      ],
+      "@/styles/*": [
+        "src/styles/*"
+      ],
+      "@/containers/*": [
+        "src/containers/*"
+      ],
+      "@/constants/*": [
+        "src/constants/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

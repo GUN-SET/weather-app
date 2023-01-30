@@ -1,0 +1,7 @@
+.background {
+	@apply bg-gray-800 h-screen grid place-items-center;
+}
+
+.search {
+	@apply bg-white w-96 p-4 rounded;
+}
