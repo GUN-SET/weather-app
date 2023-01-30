@@ -3,5 +3,13 @@
 }
 
 .search {
-	@apply bg-white w-96 p-4 rounded;
+	@apply bg-white w-96 p-4 rounded-md;
+}
+
+.searchContainer {
+	@apply flex items-center justify-between;
+
+	> input {
+		@apply text-xl border-b p-1 border-gray-200 font-semibold uppercase flex-1;
+	}
 }
